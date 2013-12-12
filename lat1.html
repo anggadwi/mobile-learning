@@ -1,0 +1,72 @@
+<!DOCTYPE	html>	
+<html>	
+<head>	
+<Ltle>Squid Proxy</Ltle>	
+	<link	rel="stylesheet"	href="http://code.jquery.com/mobile/1.0/
+jquery.mobile-1.0.min.css"	/>	
+	<script	src="http://code.jquery.com/jquery-1.7.1.min.js"></script>	
+	<script	src="http://code.jquery.com/mobile/1.0/
+jquery.mobile-1.0.min.js"></script>
+<script>	
+$(document).bind("mobileinit",	funcLon(){	
+$.mobile.page.prototype.opLons.addBackBtn=true;	
+	$.mobile.page.prototype.opLons.theme="a";	
+});	
+</script>		
+</head>	
+<body>	
+<div	id="homePage"	data-role="page" data-theme="e">	
+	<div	data-role="header">	
+		<h1>Squid Proxy</h1>	
+	</div>	
+	<div	data-role="content">	
+		<p><a	href="#about"	data-role="button">Tinjauan Pustaka</a></p>	
+
+
+<div data-role = "collapsible-set">
+	<div data-role = "collapsible" data-collapsed="false" >
+	<h3>Pengertian Proxy Server</h3>
+	<p> Pengertian Proxy Server adalah sebuah komputer server atau program komputer yang dapat bertindak sebagai komputer lainnya untuk melakukan request terhadap content dari Internet atau intranet.
+Proxy Server bertindak sebagai gateway terhadap dunia Internet untuk setiap komputer klien. Proxy server tidak terlihat oleh komputer klien: seorang pengguna yang berinteraksi dengan Internet melalui sebuah proxy server tidak akan mengetahui bahwa sebuah proxy server sedang menangani request yang dilakukannya. Web server yang menerima request dari proxy server akan menginterpretasikan request-request tersebut seolah-olah request itu datang secara langsung dari komputer klien, bukan dari proxy server.</p>
+</div>
+
+
+<div data-role = "collapsible">
+	<h3>Pengertian Squid</h3>
+	<p> Squid adalah sebuah penampilan yang bagus bagi dari server caching proxy untuk client web, pendukung FTP, gopher dan obyek data HTTP. Tak seperti software cracking tradisional , squid menangani semua permintaan dalam bentuk single , non blocking , proses I/O driven. Squid menyimpan data meta dan khususnya obyek panas yang tersembunyi dalam RAM, menyembunyikan DNS lookups, mendukung DNS lookups yang tak memihak, dan cacking negatif dari permintaan yang digagalkan . Squid mendukung SSL,kontrol akses yang extensif dan loging permintaan penuh. Dengan menggunakan ukuran berat internet cache protokol, squid dapat disusun dalam sebuah hirearki untuk pengamanan bandwidth extra squid terdiri dari sebuah squid program main server, sebuah DNS server program lookups Domain Name System, beberapa program untuk menulis kembali permintaan-permintaan dan keotentikan penampilan , dan beberapa managemen dan alat-alat client. </p>
+</div>
+
+<div data-role = "collapsible">
+	<h3>Pengertian Web Cache</h3>
+	<p> Web caching adalah menyimpan objek-objek halaman web ke hard disk yang disebut cache, untuk nantinya digunakan kembali. Contoh, Lotusia mengakses sebuah website “abc.com”, proxy menyimpan halaman HTML serta gambar – gambar yang ada pada website tersebut secara lokal. Dan kemudian, ketika klien lain mengakses website “abc.com”, halaman web akan loading lebih cepat karena server lokal mengambil isi website tersebut dari proxy dan bukan lagi dari server asal di Internet. Server proxy yang melakukan proses diatas biasa disebut server cache. </p>
+</div>
+
+<div data-role = "collapsible">
+	<h3>Pengertian Server</h3>
+	<p> Server adalah sebuah sistem komputer yang menyediakan jenis layanan tertentu dalam sebuah jaringan komputer (Wahana Komputer, 2008). Server didukung dengan prosesor yang bersifat  scalable  dan RAM yang besar, juga dilengkapi dengan sistem operasi khusus, yang disebut sebagai sistem operasi jaringan atau network  operating system. </p>
+</div>
+
+<div data-role = "collapsible">
+	<h3>About</h3>
+	<p> Nama Penyusun </p>
+	<p> Nama : Angga Dwi Sufrayuda </p>
+	<p> Kelas : TI 22 </p>
+	<p> NIM : 1110008 </p>
+</div>
+</div>
+	
+	
+	<div	data-role="footer">	
+		<h4>Footer</h4>	
+	</div>	
+</div>	
+<div	data-role="page"	id="about">	
+	<div	data-role="header">	
+		<h1>About	This	App</h1>	
+	</div>	
+	<div	data-role="content">	
+		<p>This	app	rocks!	<a	href="#homePage">Go	home</a></p>	
+	</div>	
+</div>	
+</body>	
+</html>	
